@@ -1,0 +1,210 @@
+#bt1{
+    background-color: orange;
+}
+#bt2{
+    background-color: aquamarine;
+}
+.logo{
+    font-weight: bold;
+    font-size: 20px;
+}
+.img{
+    padding-top: 30px;
+}
+.flex{
+    display: grid;
+    grid-template-rows: 1fr 1fr ;
+    grid-template-columns: 1fr 1fr ;
+    gap :10px;
+}
+.card2{
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.card3{
+    grid-row-start: 1;
+    grid-column-start: 3;
+}
+.about{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 100px;
+}
+.img-abt{
+    padding-left: 200px;
+}
+.about h2{
+    padding-left: 30px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    font-weight: bold;
+}
+.h{
+    margin-top: 50px;
+    padding-left: 30px;
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.h2{
+    display: block;
+    width:160px;
+    height: 40px;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 5px;
+    background-color: aquamarine;
+    text-decoration: none;
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 150px;
+    margin-left: 30px;
+    color: white;
+
+}
+.b1{
+    background-color: aquamarine;
+    color: white;
+}
+.blog{
+    display: flex;
+    flex-direction: row;
+    margin-left: 160px;
+    gap:30px
+}
+.testimonial h2{
+    margin-top: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+.blue{
+    text-decoration: none;
+    text-align: right;
+}
+.card-link{
+    text-decoration: none;
+}
+.img3{
+    border-radius: 100%;
+    border:10px solid aqua;
+}
+.content-t{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 350px;
+    margin-top: 40px;
+    gap: 0;
+}
+.h3-content{
+    font-weight: bold;
+    margin-right: 650PX;
+    grid-row-start: 1;
+    grid-column-start: 2;
+}
+.p-content{
+    grid-row-start: 1;
+    grid-column-start: 2;
+    margin-top: 40px;
+}
+.contact_section{
+    margin-left: 160px;
+    font-size: 1rem;
+    border-color: none;
+}
+.form_container{
+    width: 50%;
+    font-size: 30px;
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 50px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-bottom: 100px;
+}
+.sec-1{
+    color: white;
+}
+.quick{
+    margin-top: 45px;
+}
+.quick a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: white;
+}
+.sec-2{
+    color: white;
+}
+.insta{
+    margin-top: 45px;
+    display: grid;
+    grid-template-rows: 0.3fr 0.3fr 0.3fr;
+    grid-template-columns: 0.3fr 0.3fr;
+    gap: 10px;
+}
+.sec-3{
+    color: white;
+}
+.forms{
+    font-size: 20px;
+    margin-top: 20px;
+}
+.sub{
+    text-decoration: none;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: aqua;
+    color: white;
+}
+.details{
+    margin-top: 15px;
+    display: block;
+}
+.soc-details{
+    margin-top: 40px;
+}
+.social{
+    width: 20px;
+    height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-top: 7px;
+    margin-right: 5px;
+    background-color:black;
+    border-radius: 0.35rem;
+    border: 1px solid aqua;
+}
+.copy{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.learn{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    padding-top: 5px;
+}
+.icons{
+    text-decoration: none;
+}
+.mini{
+    margin-left: 100px;
+}
+.loc{
+    margin-left: 80px;
+}
+.first{
+    padding-bottom: 50px;
+}
+.icons:hover{
+    color: orange;
+}
